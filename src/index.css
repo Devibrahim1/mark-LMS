@@ -1,0 +1,55 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body{
+  overflow-x: hidden!important;
+}
+
+
+
+.slider-bg{
+
+  background-image: url('https://websitedemos.net/online-coding-course-02/wp-content/uploads/sites/713/2020/10/online-programming-courses-section-bg.svg');
+  background-size: cover; 
+  background-repeat: no-repeat;
+  background-position: center; 
+   
+} 
+
+
+.slick-slide > div {
+  margin: 0 22px;
+  padding-bottom: 40px;
+
+}
+
+
+.isActive{
+  color: brown;
+  
+}
+
+#sidebar a.active {
+  color: red;
+}
+
+.slick-dots li.slick-active button:before {
+  color:orange !important;
+  z-index: 5!important;
+}
+
+
+.sub-bg{
+
+  background-image: url('https://websitedemos.net/online-coding-course-02/wp-content/uploads/sites/713/2020/10/online-programming-course-cta-section-bg.svg');
+  background-size: cover;
+  background-repeat: no-repeat;
+  
+   
+} 
+
+.element.style{
+  width: 60%!important;
+}
+
